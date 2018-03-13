@@ -20,7 +20,7 @@ class ApplicationController < Sinatra::Base
     if params[:username] == "" || params[:password] == ""
       redirect to '/failure'
     end
-    erb :login
+    redirect to '/login'
   end
 
   get '/account' do
