@@ -4,3 +4,4 @@ class CreateUsers
 
 
   end
+end
